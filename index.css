@@ -201,6 +201,10 @@ iframe {
 	padding: 20px 0px 0px 0px;
 }
 
+.menu h3.active {
+        font-weight: bold;
+}
+
 #content {
 	margin: 0 auto 0 auto;
 	padding: 0 60px 0 60px;
