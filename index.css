@@ -3,22 +3,22 @@
 /* Typefaces */
 
 @font-face {
-	font-family: 'Akzidenz-Grotesk BQ';
-	src: url('/fonts/akzidenz-grotesk_regular.otf')
+	font-family: 'Absara TF Thin';
+	src: url('/fonts/AbsaraTF-Thin.otf')
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Aller';
-	src: url:('/fonts/aller-regular.ttf')
+	font-family: 'Absara TF Thin SC Italic';
+	src: url('/fonts/AbsaraTF-ThinItalicSC.otf')
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Droid Serif';
-	src: url('/fonts/droid-serif_regular.ttf')
+	font-family: 'AbsaraSansTF-Bold';
+	src: url:('/fonts/AbsaraSansTF-Bold.otf')
 	font-weight: normal;
 	font-style: normal;
 }
@@ -32,47 +32,54 @@ html, body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Aller', helvetica, arial, sans serif;
+	font-family: 'Absara TF Thin', helvetica, arial, sans serif;
 }
 
 h1 {
-	font-weight: bold;
+	font-family: 'AbsaraSansTF-Bold', helvetica, arial, sans serif;
+	font-variant: small-caps;
 	word-spacing: 80%;
-	font-size: 40px;
+	font-size: 60px;
 	color: #20222c;
+	text-align: center;
+	padding: 0 0 40px 0;
 }
 
 
 h2 {
+	font-family: 'AbsaraSansTF-Bold', helvetica, arial, sans serif;
+	font-variant: small-caps;
 	font-weight: normal;
 	word-spacing: 80%;
-	font-size: 18px;
+	font-size: 30px;
 	color: #20222c;
-	margin: 0;
+	text-align: center;
 }
 
 
 h3 {
 	font-weight: normal;
 	word-spacing: 80%;
-	font-size: 16px;
+	font-size: 24px;
+	line-height: 1.3;
 	color: #20222c;
+	text-align: center;
 }
 
 h4 {
 	font-weight: normal;
 	word-spacing: 80%;
-	font-size: 12px;
+	font-size: 16px;
 	color: #20222c;
 }
 
 p {
 	font-weight: normal;
 	word-spacing: 80%;
-	font-size: 12px;
-	line-height: 18px;
+	font-size: 20px;
+	line-height: 30px;
 	color: #20222c;
-	font-family: 'Droid Serif', serif;
+	text-align: center;
 }
 
 section {
@@ -105,6 +112,7 @@ ul {
 	font-size: 12px;
 	line-height: 16px;
 	color: #20222c;
+	text-align: center;
 }
 
 a:link {
@@ -165,7 +173,7 @@ iframe {
 .menu {
 	position: fixed;
 	background: #FFFFFF;
-	opacity: .9;
+	opacity: .95;
 	padding: 0;
 	width: 100%;
 	height: 140px;
@@ -255,33 +263,160 @@ iframe {
 }
 
 .header {
-	padding: 30px 0 30px 0;
+	margin: 0 auto;
+	padding: 100px 0 100px 0;
 	width: 960px;
 }
 
-/* 300px, floated left, one columnn */
 
-.l300-1 {
-        float: left;
-        width: 300px;
+/* 160px, floated left, one columnn */
+
+.l160 {
+	float: left;
+        width: 160px;
 	padding: 0 0 30px 0;
 }
 
-.l300-1 h4 {
-        float: left;
-        max-width: 90%;
+.l160 h2 {
+	margin: 0;
 }
 
-.l300-1 img {
+.l160 img {
         float: left;
-        max-width: 90%;
+        max-width: 100%;
 }
 
-.l300-1 p {
+
+/* 320px, floated left, one columnn */
+
+.l320 {
+	float: left;
+        width: 320px;
+	padding: 0 0 30px 0;
+}
+
+.l320 img {
         float: left;
-        max-width: 90%;
+        max-width: 100%;
+}
+
+.l320 p {
+        float: left;
 	padding: 0 20px 0 0;
 }
+
+
+/* 320px, centered, one columnn */
+
+.c320 {
+        width: 320px;
+	margin: 0 auto;
+}
+
+.c320 img {
+        float: left;
+	max-width: 100%;
+}
+
+.c320 p {
+        float: left;
+}
+
+
+/* 480px, floated left, one columnn */
+
+.l480 {
+	float: left;
+        width: 480px;
+	padding: 0 0 30px 0;
+}
+
+.l480 h2 {
+	margin: 0;
+}
+
+.l480 img {
+        float: left;
+        max-width: 90%;
+	
+}
+
+/* 480px, centered, one columnn */
+
+.c480 {
+        width: 480px;
+	margin: 0 auto;
+}
+
+.c480 img {
+        float: left;
+	max-width: 100%;
+}
+
+.c480 p {
+        float: left;
+}
+
+
+
+/* 640px, floated left, one columnn */
+
+.l640 {
+        overflow: hidden;
+        float: left;
+        width: 600px;
+}
+
+.l640 img {
+        float: left;
+        max-width: 100%;
+}
+
+
+/* 640px, centered, one columnn */
+
+.c640 {
+	margin: 0 auto;
+        overflow: hidden;
+        width: 640px;
+}
+
+.c640 img {
+        float: left;
+        max-width: 100%;
+}
+
+
+/* 960px, centered, one columnn */
+
+.c960 {
+        overflow: hidden;
+        width: 960px
+	margin: 0 auto;
+}
+
+.c960 img {
+        max-width: 100%;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* 300px, floated right, one columnn */
 
@@ -307,20 +442,6 @@ iframe {
 	padding: 0 20px 0 0;
 }
 
-/* 600px, floated left, one columnn */
-
-.l600-1 {
-        overflow: hidden;
-        float: left;
-	padding: 0 0 30px 0;
-        width: 600px;
-}
-
-.l600-1 img {
-        float: left;
-        max-width: 100%;
-	padding: 0 0 30px 0;
-}
 
 /* 600px, floated left, two columnns */
 
@@ -379,6 +500,7 @@ iframe {
         max-width: 100%;
 	padding: 0 0 20px 0;
 }
+
 	
 /* 900px, floated left, two columnns */
 
@@ -425,6 +547,3 @@ iframe {
         float: right;
         max-width: 20%;
 }
-
-
-
