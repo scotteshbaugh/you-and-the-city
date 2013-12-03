@@ -98,7 +98,8 @@ section {
 footer {
 	width: 300px;
 	padding: 200px 0 40px 0;
-	float: left;
+	margin: 0 auto;
+
 }
 
 
@@ -112,6 +113,7 @@ footer p {
 
 footer img {
 	padding: 0 20px 10px 0;
+	margin: 0 auto;
 }
 
 ul {
@@ -199,7 +201,7 @@ iframe {
 	float: left;
 	padding: 0px 20px 0px 00px;
 	margin: 0;
-	width: 160px;
+	width: 220px;
 	height: 100px;
 }
 
@@ -215,6 +217,7 @@ iframe {
 .menu h3 {
 	margin: 0;
 	padding: 20px 0px 0px 0px;
+	line-height: .9;
 }
 
 .menu h3.active {
@@ -309,7 +312,6 @@ iframe {
 }
 
 .caption {
-	font-style: italic;
 	word-spacing: 80%;
 	font-size: 18px;
 	line-height: 24px;
@@ -317,10 +319,6 @@ iframe {
 	text-align: left;
 }
 
-.test {
-	float: left;
-	width: 400px;
-}
 
 /* 160px, floated left, one columnn */
 
