@@ -343,7 +343,7 @@ iframe {
 /* 320px, floated left, one columnn */
 
 .l320 {
-	float: left;
+        float: left;
         width: 320px;
 	padding: 10px 0 10px 0;
 }
@@ -385,6 +385,7 @@ iframe {
 	float: left;
         width: 480px;
 	padding: 10px 0px 10px 0;
+        text-align: center;
 }
 
 .l480 h2 {
@@ -392,12 +393,12 @@ iframe {
 }
 
 .l480 img {
-        float: left;
         max-width: 90%;
 }
 
-.l480 p {
+.l480 p.caption {
 	padding: 0 0 20px 0;
+        text-align: center;
 }
 
 /* 480px, centered, one columnn */
